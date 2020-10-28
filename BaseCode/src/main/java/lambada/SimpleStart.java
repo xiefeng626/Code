@@ -1,8 +1,6 @@
 package lambada;
 
 import java.util.*;
-import java.util.function.DoubleToIntFunction;
-import java.util.function.IntBinaryOperator;
 
 public class SimpleStart {
     public static void main(String[] args) {
