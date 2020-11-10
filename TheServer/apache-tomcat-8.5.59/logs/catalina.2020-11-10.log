@@ -1,0 +1,42 @@
+10-Nov-2020 10:37:45.700 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+10-Nov-2020 10:37:45.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+10-Nov-2020 10:37:45.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+10-Nov-2020 10:37:45.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+10-Nov-2020 10:37:45.706 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Work\Environment\Java\JDK\jre
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_261-b12
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59
+10-Nov-2020 10:37:45.707 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\conf\logging.properties
+10-Nov-2020 10:37:45.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2020 10:37:45.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+10-Nov-2020 10:37:45.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Nov-2020 10:37:45.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+10-Nov-2020 10:37:45.708 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59
+10-Nov-2020 10:37:45.709 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59
+10-Nov-2020 10:37:45.709 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\temp
+10-Nov-2020 10:37:45.709 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Work\Environment\Java\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Work\Environment\Java\JDK\bin;D:\Work\SoftWare\mysql-5.6.25-winx64\bin;D:\Work\SoftWare\Git\cmd;C:\Users\HASEE\AppData\Local\Microsoft\WindowsApps;D:\SoftWare\BrandZip\;D:\Work\SoftWare\IntelliJ IDEA 2020.2.1\bin;;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+10-Nov-2020 10:37:45.939 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+10-Nov-2020 10:37:46.048 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Nov-2020 10:37:46.056 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 676 ms
+10-Nov-2020 10:37:46.078 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+10-Nov-2020 10:37:46.078 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+10-Nov-2020 10:37:46.086 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\docs]
+10-Nov-2020 10:37:46.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\docs]的部署已在[173]毫秒内完成
+10-Nov-2020 10:37:46.263 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\examples]
+10-Nov-2020 10:37:46.544 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\examples]的部署已在[281]毫秒内完成
+10-Nov-2020 10:37:46.547 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\host-manager]
+10-Nov-2020 10:37:46.574 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\host-manager]的部署已在[27]毫秒内完成
+10-Nov-2020 10:37:46.576 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\manager]
+10-Nov-2020 10:37:46.600 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\manager]的部署已在[24]毫秒内完成
+10-Nov-2020 10:37:46.603 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\ROOT]
+10-Nov-2020 10:37:46.620 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\HASEE\Desktop\Note\Code\TheServer\apache-tomcat-8.5.59\webapps\ROOT]的部署已在[17]毫秒内完成
+10-Nov-2020 10:37:46.623 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+10-Nov-2020 10:37:46.629 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 573 ms
+10-Nov-2020 10:37:54.901 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+10-Nov-2020 10:37:54.904 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+10-Nov-2020 10:37:55.005 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+10-Nov-2020 10:37:55.018 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+10-Nov-2020 10:37:55.019 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
