@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-comsumer" />
+        <module name="service-eurekas" />
+        <module name="service-providers" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="artifact1" target="1.8" />
+      <module name="service-comsumer" target="1.8" />
+      <module name="service-eurekas" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="service-providers" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="artifact1" options="-parameters" />
+      <module name="service-comsumer" options="-parameters" />
+      <module name="service-eurekas" options="-parameters" />
+      <module name="service-provider" options="-parameters" />
+      <module name="service-providers" options="-parameters" />
+    </option>
+  </component>
+</project>
