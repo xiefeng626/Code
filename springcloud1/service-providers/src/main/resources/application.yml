@@ -18,3 +18,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka
+  server:
+    eviction-interval-timer-in-ms: 50000 #剔除无效服务的时间间隔
+    enable-self-preservation: false #关闭自我保护 防止关闭了服务eureka没有把她剔除掉

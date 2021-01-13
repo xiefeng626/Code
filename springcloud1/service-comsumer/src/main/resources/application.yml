@@ -5,7 +5,27 @@ spring:
   application:
     name: service-comsumer
 
+ribbon:
+  eureka:
+    enabled: true
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka
+
+service-providers:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillissecond: 5000 #超过时间就熔断了
+
+feign:
+  hystrix:
+    enabled: true
