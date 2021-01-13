@@ -1,0 +1,10 @@
+
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(®ÿ¬8Ï–‰Íï.
+t
+java:S1128
+"WRemove this unused import 'org.springframework.cloud.client.loadbalancer.LoadBalanced'.(Éâ¦‡8íˆ¾€ï.
+Y
+java:S1128"=Remove this unused import 'com.netflix.appinfo.InstanceInfo'.(»±!8İÊ¶ùî.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÿ€ú“ÿÿÿÿÿ8±ùîÌï.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(â¦äéûÿÿÿÿ8ÆÉ†…ï.
+X	java:S125'"<This block of commented-out lines of code should be removed.(µÊêÜ8ö³ïÌï.

@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/zhao?serverTimezone=UTC
+  application:
+    name: service-providers
+
+mybatis:
+  type-aliases-package: com.serviceproviders.pojo
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  server:
+    eviction-interval-timer-in-ms: 50000 #剔除无效服务的时间间隔
+    enable-self-preservation: false #关闭自我保护 防止关闭了服务eureka没有把她剔除掉

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-comsumer/service-comsumer.iml" filepath="$PROJECT_DIR$/service-comsumer/service-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-eurekas/service-eurekas.iml" filepath="$PROJECT_DIR$/service-eurekas/service-eurekas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider2/service-provider2.iml" filepath="$PROJECT_DIR$/service-provider2/service-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-providers/service-providers.iml" filepath="$PROJECT_DIR$/service-providers/service-providers.iml" />
+    </modules>
+  </component>
+</project>
