@@ -1,4 +1,4 @@
-package DesignPattern.factory.abstractfactorytrue;
+package designpattern.factory.abstractfactorytrue;
 
 
 

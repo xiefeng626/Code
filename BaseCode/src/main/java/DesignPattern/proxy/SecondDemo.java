@@ -1,4 +1,4 @@
-package DesignPattern.proxy;
+package designpattern.proxy;
 import java.awt.*;
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package DesignPattern.factory.simplefactory;
+package designpattern.factory.simplefactory;
 
 /**
  * 简单工厂 每加一个产品就得 加一个类 以及改变工厂代码（插入新的产品到工厂） 违背开闭原则

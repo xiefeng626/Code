@@ -1,4 +1,4 @@
-package DesignPattern.proxy;
+package designpattern.proxy;
 
 
 public class FirstDemo {

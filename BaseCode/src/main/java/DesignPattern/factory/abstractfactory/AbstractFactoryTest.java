@@ -1,4 +1,4 @@
-package DesignPattern.factory.abstractfactory;
+package designpattern.factory.abstractfactory;
 /**
  * 工厂方法
  */
