@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-providers (1)" />
+        <module name="service-providers (2)" />
         <module name="service-comsumer" />
         <module name="service-eurekas" />
         <module name="service-provider2" />
@@ -19,6 +21,8 @@
       <module name="service-provider" target="1.8" />
       <module name="service-provider2" target="1.8" />
       <module name="service-providers" target="1.8" />
+      <module name="service-providers (1)" target="1.8" />
+      <module name="service-providers (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +33,8 @@
       <module name="service-provider" options="-parameters" />
       <module name="service-provider2" options="-parameters" />
       <module name="service-providers" options="-parameters" />
+      <module name="service-providers (1)" options="-parameters" />
+      <module name="service-providers (2)" options="-parameters" />
     </option>
   </component>
 </project>

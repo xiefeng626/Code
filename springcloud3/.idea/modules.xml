@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/service-eurekas/service-eurekas.iml" filepath="$PROJECT_DIR$/service-eurekas/service-eurekas.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-provider2/service-provider2.iml" filepath="$PROJECT_DIR$/service-provider2/service-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-providers/service-providers.iml" filepath="$PROJECT_DIR$/service-providers/service-providers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider2/service-providers (1).iml" filepath="$PROJECT_DIR$/service-provider2/service-providers (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-providers/service-providers (2).iml" filepath="$PROJECT_DIR$/service-providers/service-providers (2).iml" />
     </modules>
   </component>
 </project>
