@@ -23,7 +23,7 @@ import org.junit.Test;
  * 3、min=high    result:去掉高位                    中间=高位         趋势：1、增减小  2、减增
  * 4、mid>high                                    中间大   高位小    减小     增加大突变小
  */
-public class offer06 {
+public class Offer06 {
 
     @Test
     public  void main(){
