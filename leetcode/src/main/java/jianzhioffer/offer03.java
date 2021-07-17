@@ -5,6 +5,7 @@ package jianzhioffer;
  */
 
 
+import jianzhioffer.util.ListNode;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -31,13 +32,7 @@ import java.util.Stack;
  *                  }
  */
 
-  class ListNode {
-        int val;
-        ListNode next = null;
-        ListNode(int val) {
-        this.val = val;
-    }
-}
+
 
 public class offer03 {
       @Test
