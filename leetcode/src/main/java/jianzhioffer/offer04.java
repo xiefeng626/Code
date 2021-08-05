@@ -7,6 +7,7 @@ package jianzhioffer;
  */
 
 
+import jianzhioffer.util.TreeNode;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -19,14 +20,7 @@ import java.util.Arrays;
 
 
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
-}
+
 
 public class offer04 {
     int[] pre = {1,2,3,4,5,6,7};//先序
