@@ -7,4 +7,8 @@ public class TreeNode {
     public TreeNode(int x) {
         val = x;
     }
+
+    public static  TreeNode addTreeNode(int a){
+        return new TreeNode(a);
+    }
 }

@@ -2,9 +2,6 @@ package Other;
 
 import org.junit.Test;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
@@ -22,54 +19,43 @@ import java.util.Stack;
  * 例如: "()()()"的深度是1,"((()))"的深度是3。牛牛现在给你一个合法的括号序列,需要你计算出其深度。
  */
 public class KuoHaoShengDu {
-
-//    public static void main(String[] args) throws IOException {
-////        Scanner sc = new Scanner(System.in);
-////        String str=sc.next();
-////        StringBuffer stringBuffer = new StringBuffer(str);
-//        Stack<Character> stack = new Stack<>();
-//        BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
-//        String s = bfr.readLine().trim();
-//        Stack<Character> st = new Stack();
-//        char[] chars = s.toCharArray();
-//        int temp=0;
-//        int max=0;
-//
-//
-//        for(int i=0;i<stringBuffer.length();i++){
-//            //符合条件出栈
-//            if(!stack.isEmpty() && stack.peek()+stringBuffer.charAt(i)==81){
-//                stack.pop();
-//                temp--;
-//                continue;
-//            }
-//            stack.push(stringBuffer.charAt(i));
-//            temp++;
-//            max = max<temp? temp:max;
-//        }
-//        System.out.println(max);
-//
+//    @Test
+//    public  void main() {
+//        String str = "(((())))(((())))((((()))))(((((())))))";
+//        int i = deepLength(str);
+//        System.out.println(i);
 //    }
 
 
-    //进去一个加一去掉一个减一
-    public static void main(String[] args) throws IOException {
-        BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
-        String s = bfr.readLine().trim();
-        Stack<Character> st = new Stack();
-        char[] chars = s.toCharArray();
+//  (  (()) () )  (  ( (()) (()) ) ())
+    public static void main(String[] args){
+//        Scanner sc = new Scanner(System.in);
+        String str="( ( (()) (()) ) () )";
+//                sc.next();
+        StringBuffer stringBuffer = new StringBuffer(str);
+        Stack<Character> stack = new Stack<>();
         int max=0;
-        int temp =0;
-        for(int i=0;i<chars.length;i++){
-            if('('==chars[i]){
-                st.push(')');
-                temp++;
-            }else{
-                st.pop();
-                temp--;
+        int max2=0;
+
+
+        for(int i=0;i<stringBuffer.length();i++){
+            //空栈 深度要重新计算
+            if(stack.isEmpty()){
+                if(max2<max) {
+                    max2 = max;
+                }
+                max=0;
             }
-            max=max>temp?max:temp;
+
+            if(!stack.isEmpty() && stack.peek()+stringBuffer.charAt(i)==81){
+                stack.pop();
+                max++;
+                continue;
+            }
+            stack.push(stringBuffer.charAt(i));
         }
-        System.out.println(max);
+
+        System.out.println(max2);
+
     }
 }
