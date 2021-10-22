@@ -38,7 +38,7 @@ public class Offer24 {
 
     public void FindPath(TreeNode root, int target) {
         if(root!=null){
-            alll.add(new ArrayList<>())
+            alll.add(new ArrayList<>());
             if(root.val==target) {
                 arrayLists.add(root.val);
             }
